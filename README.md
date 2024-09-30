@@ -9,4 +9,4 @@ graph TD
     
 ```
 
-$\emptyset
+$\emptyset$
