@@ -8,11 +8,11 @@ public class Main {
     public static PrintStream out = System.out;
 
     public static void main(String[] args) {
-        // Считывание четырёх вещественных чисел x, a, b, c из консоли
-        double x = in.nextDouble();
-        double a = in.nextDouble();
-        double b = in.nextDouble();
-        double c = in.nextDouble();
+        // Считывание четырёх целых чисел x, a, b, c из консоли
+        int x = in.nextInt();
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
         // Ввод переменной счётчика k
         int k = 0;
 
