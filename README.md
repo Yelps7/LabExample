@@ -113,11 +113,11 @@ public class Main {
     public static PrintStream out = System.out;
 
     public static void main(String[] args) {
-        // Считывание четырёх вещественных чисел x, a, b, c из консоли
-        double x = in.nextDouble();
-        double a = in.nextDouble();
-        double b = in.nextDouble();
-        double c = in.nextDouble();
+        // Считывание четырёх целых чисел x, a, b, c из консоли
+        int x = in.nextInt();
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
         // Ввод переменной счётчика k
         int k = 0;
 
@@ -157,48 +157,37 @@ public class Main {
 ```
 ### 6. Анализ правильности решения 
 Программа работает корректно на всем множестве решений с учетом ограничений. 
-1. Тест на `x = 5, a = 1,3, b = 3, c = 2`: 
+1. Тест на корректность `x = 5, a = 4, b = 3, c = 2`: 
 
  - **Input**: 
         ```
-        5 1.3 3 2
+        5 4 3 2
         ```
 
  - **Output**: 
         ```
-        1
+        2
         ```
 
-2. Тест на `x = 0, a = 1,3, b = 3, c = 2 `: 
+2. Тест на корректность `x = 0, a = 7, b = 3, c = 2 `: 
 
  - **Input**: 
         ```
-        0 1.3 3 2 
+        0 7 3 2 
         ```
 
  - **Output**: 
         ```
         3
         ```
- 3. Тест на `x = 17, a = 7, b = 3,3, c = 4 `: 
+ 3. Тест на корректность `x = 17, a = 7, b = 5, c = 3 `: 
 
  - **Input**: 
         ```
-        17 7 3.3 4
+        17 7 5 3
         ```
 
  - **Output**: 
         ```
         0
-        ```
-4. Тест на ограничение задачи `x = 5, a = 4, b = 3, c = 2 `: 
-   
- - **Input**: 
-        ```
-        5 4 3 2 
-        ```
-
- - **Output**: 
-        ```
-        2
         ```
